@@ -11,7 +11,7 @@ from social.storage.django_orm import DjangoUserMixin, \
                                       DjangoNonceMixin, \
                                       DjangoCodeMixin, \
                                       BaseDjangoStorage
-from social.apps.django_app.default.fields import JSONField
+from django.contrib.postgres.fields import JSONField
 from social.apps.django_app.default.managers import UserSocialAuthManager
 
 
